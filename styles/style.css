@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans&family=Lato&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;&family=Josefin+Sans&family=Lato&family=Montserrat:wght@400;700&family=Poppins:wght@400;&display=swap');
 
 
 *{
@@ -58,3 +58,58 @@
     font-size: 18px;
 }
 /* header section style end */
+
+/* main body section style start */
+.main_body{
+    height: auto;
+    width: 100%;
+    background-color: #F3F1FF;
+    display: flex;
+    justify-content: center;
+}
+/* main body section style end */
+
+
+/* <!-- Top players and blogs section start --> */
+.main_body .players_blogs.continer{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.continer h2{
+    color: #562EFF;
+    font-family: 'Poppins', sans-serif; 
+    padding: 20px 20px 0px 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.top_players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.players_counter{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.top_players .players_counter img{
+    height: 60px;
+    width: 60px;
+    margin: 20px;  
+}
+
+hr{
+    border: 0px solid #D1D1D1;
+    border-bottom: 2px solid #D1D1D1;
+    width: 95%;
+    margin: auto;
+}
