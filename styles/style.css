@@ -10,6 +10,8 @@
 
 body, html{
     font-family: 'Poppins', sans-serif; 
+    background-color: #F3F1FF;
+
 
 }
 
@@ -32,18 +34,20 @@ body, html{
 .navigation_menu .logo_area{
     display: flex;
     align-items: center;
+
 }
-.navigation_menu .logo_area .logo{
+.navigation_menu .logo_area a .logo{
     height: 10vh;
+    margin-top: 10px;
 }
 
-.navigation_menu .logo_area .logo_name{
-    font-size: 30px;
+.navigation_menu .logo_area a{
+    font-size: 40px;
     font-family: 'Poppins', sans-serif; 
     color: white;
-    padding: 20px;
-    font-weight: 500;
-
+    padding: 10px;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .navigation_menu ul{
@@ -67,9 +71,6 @@ body, html{
 .main_body{
     height: auto;
     width: 100%;
-    background-color: #F3F1FF;
-    display: flex;
-    justify-content: center;
 }
 /* main body section style end */
 
@@ -79,8 +80,8 @@ body, html{
     height: 100%;
     width: 70%;
     background-color: white;
-    margin-top: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin: 30px auto;
 }
 
 .continer h2{
@@ -164,4 +165,76 @@ hr{
 
 
 
+/* <!-- Lates Course srction start  --> */
+.couses_section{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+
+.main_coures_continers{
+    width: 100%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.1rem;
+}
+
+.coures_continer{
+    padding: 20px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.111);
+    width: 310px;
+    border-radius: 20px;
+}
+
+
+.coures_continer img{
+    width: 270px;
+
+
+}
+
+.coures_continer h3{
+    font-size: 24px;
+    color: #1E1E1E;
+    padding: 10px 0;
+}
+
+.coures_continer .author{
+    color: #ED6B4F;
+    font-size: 14px;
+    padding-bottom: 10px;
+
+}
+
+
+.reating_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.reating_section .fill{
+    color: #FFC014;
+}
+
+.reating_section .unfill{
+    color: #AEAEAE;
+}
+
+.reating_section p{
+    color: #A2A2A2;
+}
+
+.reating_section .time_hr{
+    background-color: #FFE4E8;
+    color: #FF4A60;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+/* <!-- Lates Course srction end  --> */
+/* <!-- main body section end --> */
 
