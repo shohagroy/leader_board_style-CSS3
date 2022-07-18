@@ -257,6 +257,8 @@ hr{
     font-size: 24px;
     padding: 10px;
     display: none;
+    cursor: pointer;
+
 }
 
 footer{
@@ -361,16 +363,29 @@ footer p{
 
     .coures_continer img{
         width: 100%;
+        max-width: 0cm;
     }
 }
 
 /* Medium divice  */
-@media screen and (min-width: 577px) and (max-width: 992px){
+@media (min-width: 577px) and (max-width: 992px){
     /* header section start */
     .header_menu{
     height: 12vh;
     /* width: 100%; */
     background-color: yellowgreen;
+    }
+
+    ul li{
+        display: none;
+
+    }
+
+    .menu label .fa-solid{
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+    
     }
 
     .main_body .players_blogs.continer{
