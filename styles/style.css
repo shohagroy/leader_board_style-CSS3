@@ -326,12 +326,17 @@ footer p{
 
     .top_players {
         grid-template-columns: repeat(1, 1fr);
-        /* height: 100vh; */
         text-align: center;
     }
 
     .players_counter{
         display: block;
+        padding-bottom: 10px;
+    }
+
+    .top_players .players_counter img{
+        height: 180px;
+
     }
     /* Player section end */
 
