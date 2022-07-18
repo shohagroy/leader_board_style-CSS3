@@ -46,7 +46,7 @@ body, html{
 }
 
 .navigation_menu .logo_area a{
-    font-size: 40px;
+    font-size: 3rem;
     font-family: 'Poppins', sans-serif; 
     color: white;
     padding: 10px;
@@ -61,7 +61,7 @@ body, html{
 }
 .navigation_menu ul li{
     list-style: none;
-    width: 100px;
+    width: 5vw;
     
 }
 .navigation_menu ul li a{
@@ -92,7 +92,7 @@ body, html{
     color: #562EFF;
     font-family: 'Poppins', sans-serif; 
     padding: 20px 20px 0px 20px;
-    font-size: 25px;
+    font-size: 2.3rem;
     font-weight: 500;
 }
 
@@ -113,8 +113,7 @@ body, html{
 }
 
 .top_players .players_counter img{
-    height: 60px;
-    width: 60px;
+    height: 15vh;
     margin: 20px;  
 }
 
@@ -142,7 +141,7 @@ hr{
 }
 
 .blog_info img{
-    width: 225px;
+    width: 15vw;
 }
 
 .blog_info .details h4{
@@ -190,15 +189,13 @@ hr{
 .coures_continer{
     padding: 20px;
     box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.111);
-    width: 310px;
+    /* width:px; */
     border-radius: 20px;
 }
 
 
 .coures_continer img{
-    width: 270px;
-
-
+    width: 100%;
 }
 
 .coures_continer h3{
@@ -262,8 +259,27 @@ hr{
     display: none;
 }
 
+footer{
+    height: 15vh;
+    width: 100%;
+    background-color: #562EFF;
+    text-align: center;
+
+}
+
+footer h2{
+    font-size: 2rem;
+    padding: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer p{
+    color: white;
+}
+
 
 /* media Quary Section Start */
+/* small diveice */
 @media screen and (max-width: 576px) {
 
     /* header section start */
@@ -337,8 +353,6 @@ hr{
     .main_coures_continers{
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
-
-
     }
 
     .coures_continer{
@@ -347,9 +361,55 @@ hr{
 
     .coures_continer img{
         width: 100%;
-    
-    
+    }
+}
+
+/* Medium divice  */
+@media screen and (min-width: 577px) and (max-width: 992px){
+    /* header section start */
+    .header_menu{
+    height: 12vh;
+    /* width: 100%; */
+    background-color: yellowgreen;
     }
 
+    .main_body .players_blogs.continer{
+        width: 90%;
+    }
+
+    .top_players {
+        grid-template-columns: repeat(2, 1fr);
+        /* height: 100vh; */
+        text-align: center;
+    }
+
+    .blogs_continers{
+        grid-template-columns: repeat(1, 1fr);  
+    }
+
+    .blogs_continers .blog_info{
+        /* display: block; */
+    }
+
+    .blog_info img{
+        width: 25rem;
+    }
+
+    .couses_section{
+        width: 90%;
+    }
     
+    .main_coures_continers{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .coures_continer{
+        width: 100%;
+    }
+
+    .coures_continer img{
+        width: 100%;
+    }
 }
+
+
